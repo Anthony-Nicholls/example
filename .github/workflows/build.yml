@@ -17,4 +17,4 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           repository: Anthony-Nicholls/example-utils
           event-type: build
-          payload: '{"sha": "${{ github.sha }}"}'
+          client-payload: '{"sha": "${{ github.sha }}"}'
