@@ -6,4 +6,5 @@ on:
 
 jobs:
   build:
+    if: ${{ github.repository }} == 'Anthony-Nicholls/example-dev'
     uses: Anthony-Nicholls/example-utils/.github/workflows/build.yml@main
